@@ -71,8 +71,7 @@ button {
 
 /* Heading */
 
-.title,
-label[for='new-task'] {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -101,11 +100,6 @@ label[for='new-task'] {
 
 /* New Task */
 
-label[for='new-task'] {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #new-task {    
   width: 318px;
 }
@@ -129,7 +123,7 @@ label[for='new-task'] {
   margin: 0 10px;
 }
 
-.list-item > label {
+.list-item > .label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -152,7 +146,7 @@ label[for='new-task'] {
 
 /* Completed */
 
-.list#completed-tasks label {
+#completed-tasks .label {
   text-decoration: line-through;
   color: #888;
 }
@@ -168,7 +162,7 @@ label[for='new-task'] {
   width: 224px;
 }
 
-.list-item.editMode label {
+.list-item.editMode .label {
   display: none;
 }
 
